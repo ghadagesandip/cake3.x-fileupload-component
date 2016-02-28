@@ -1,0 +1,17 @@
+{
+  "name": "sandip/cake3.x-file-upload",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sandip Ghadge",
+      "email": "ghadagesandip@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Sandip\\FileUpload\\": "src"
+    }
+  }
+}
