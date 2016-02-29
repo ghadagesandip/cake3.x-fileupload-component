@@ -1,5 +1,5 @@
 <?php
-namespace Sandip\FileUpload\Controller\Component;
+namespace FileUpload\Controller\Component;
 
 use Cake\Controller\Component;
 use Cake\Core\Configure;

@@ -1,5 +1,5 @@
 {
-  "name": "sandip/cake3.x-file-upload",
+  "name": "cakephp/cake3.x_file_upload",
   "license": "MIT",
   "authors": [
     {
@@ -8,10 +8,13 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "php": ">=5.5.9",
+    "cakephp/cakephp": ">=3.1.0 <4.0"
+  },
   "autoload": {
     "psr-4": {
-      "Sandip\\FileUpload\\": "src"
+      "FileUpload\\": "src"
     }
   }
 }
