@@ -1,6 +1,7 @@
 {
   "name": "cakephp/cake3.x_file_upload",
   "license": "MIT",
+  "type":"cakephp-plugin",
   "authors": [
     {
       "name": "Sandip Ghadge",
