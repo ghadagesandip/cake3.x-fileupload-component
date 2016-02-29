@@ -23,7 +23,7 @@ Plugin::load('FileUpload');
 ```
 
 
-### How to use
+## How to use
 
 1. Load plugin in controller's initialise function
 
