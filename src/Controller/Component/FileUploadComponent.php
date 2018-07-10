@@ -259,7 +259,7 @@ class FileUploadComponent extends Component{
         }
 
 
-        foreach ($this->_config['uploadDir'] as $thumb=>$dimensions){
+        foreach ($this->_config['defaultThumb'] as $thumb=>$dimensions){
             if(file_exists($file_path.'thumb' .DS. $thumb .DS. $file_name)){
                 @unlink($file_path.'thumb' . DS . $thumb . DS . $file_name);
             }
